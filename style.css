@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.background{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+} 
+
+.main-container{
+    border-radius: 20px;
+    margin: 50px;
+    padding: 50px;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.70);
+    text-align: center;
+}
+.logo{
+    width: 200px;
+}
+
+.text-logo{
+    color: green;
+}
+
+button{
+    padding: 3px;
+    border-radius: 10%;
+}
+
+.button-container{
+    padding: 5px;
+    width: calc(100%);
+    background: green;
+}
+
+.account{
+    padding-top: 10px;
+    text-align: left;
+    color: white;
+}
+#username{
+    display: inline;
+    font-size: 25px;
+}
+
+#power-residue{
+    padding: 5px;
+    width: calc(power-residue);
+    height: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+    color: black;
+}
